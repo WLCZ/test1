@@ -1,0 +1,15 @@
+Curso Git e GITHUB - 27/03/2020
+
+Git é o repositório 
+github arquivos na internet
+
+git config --global user.name "Willian Cortez" \\Declarar o nome do usuário"
+git config --global user.email "williancortez@hotmail.com" \\Declarar email
+
+mkdir git-test \\criar um diretório
+cd git-test/ \\Trocar de diretório
+git init \\Iniciar o git
+cd .git/ \\Entrar no git
+
+dir > test1.txt \\ cria arquivos
+git status \\ status
