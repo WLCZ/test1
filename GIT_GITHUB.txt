@@ -29,3 +29,49 @@ git remote set-url origin git@github.com:ppreyer/first_app.git
 
 git remote // See where is the the remote
 git remote -v // See status of remote
+
+git commit -am "..."
+
+git push origin master //sending to github the newest commits
+
+git clone "ssh...." <folder>// git clone
+
+Branch é um ponteiro, para um determinado estado
+
+git checkout -b testing // Adding a new branch called testing
+
+git branch //see the branches in github
+
+git checkout master // Using branch called master
+git checkout testing //Using branch called testing 
+
+git branch -D testing // Deleting branch called "testing"
+
+Unindo branches
+
+MERGE - Uni tudo, criando um novo commit para juntar tudo, ciclo em diamante. 
+Pro - operação não destrutiva
+Contra - um commit extra, desnecessário e histórico poluído
+
+REBASE - Remapeia de forma linear
+Pro - Evita commits extras, histórico linear
+Contra - Perde ordem cronológica 
+
+git log --graph // graph of historical
+
+gitignore -> for ignored files
+
+git stash -> Salva uma modificação para depois ser implementada
+git stash list // Lista o que está no stash
+git stash clear // Limpa o stash
+
+ALIAS -> atalhos
+
+git config --global alias.s status -> atalho para status para s
+
+TAG's
+
+git tag -a 1.0.0 -m "Readme finalizado"
+git push origin master --tags
+
+git revert "commit" -> reverter um commit
